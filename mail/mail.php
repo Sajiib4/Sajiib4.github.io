@@ -1,6 +1,7 @@
 <?php
 
 if(isset($_POST["submit"])) {
+
     $name = $_POST['name'];
     $mailFrom = $_POST['email'];
     $message = $_POST['message'];
@@ -10,8 +11,8 @@ if(isset($_POST["submit"])) {
     $headers = "From: ".$mailFrom; 
     $txt = "You have received an e-mail from".$name.".\n\n".$message;
     
-    mail($mailTo, $message, $txt, $headers);
-    header("Location: ../index.html?mailsend");
+    mail($mailTo, $headers, $txt, $message);
+    header("Location: success.php");
 }
 
 ?>
