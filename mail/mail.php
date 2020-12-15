@@ -1,18 +1,17 @@
-<?
-$name = $_POST['name'];
-$email = $_POST['email'];
-$message = $_POST['message'];
+<?php
 
-$email_message = "
+if(isset($_POST["submit"])) {
+    $name = $_POST['name'];
+    $mailFrom = $_POST['email'];
+    $message = $_POST['message'];
+    
 
-Name: ".$name."
-Email: ".$email."
-Message: ".$message."
+    $mailTo = "info@devsajib.com";
+    $headers = "From: ".$mailFrom; 
+    $txt = "You have received an e-mail from".$name.".\n\n".$message;
+    
+    mail($mailTo, $message, $txt, $headers);
+    header("Location: ../index.html?mailsend");
+}
 
-";
-
-mail ("samiul.islam.unisel@gmail.com" , "New Message", $email_message);
-header("location: ../mail-success.html ");
 ?>
-
-
