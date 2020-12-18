@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="121" height="24.722" viewBox="0 0 121 24.722">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #13e9db;
+        font-size: 17px;
+        font-family: MaturaMTScriptCapitals, Matura MT Script Capitals;
+      }
+
+      .cls-2 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-3 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-4 {
+        fill: #feda00;
+      }
+
+      .cls-5 {
+        fill: #e873b5;
+      }
+    </style>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-96 -353.278)">
+    <text id="DeveloperSajib" class="cls-1" transform="translate(96 370)"><tspan x="0" y="0">D</tspan><tspan class="cls-2" y="0">e</tspan><tspan y="0">ve</tspan><tspan class="cls-3" y="0">l</tspan><tspan y="0">oper</tspan><tspan class="cls-4" y="0">Sajib</tspan></text>
+    <path id="Polygon_1" data-name="Polygon 1" class="cls-5" d="M4,0,8,8H0Z" transform="translate(183.5 353.278) rotate(90)"/>
+  </g>
+</svg>
